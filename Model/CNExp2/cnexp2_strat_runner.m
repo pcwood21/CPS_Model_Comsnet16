@@ -13,7 +13,7 @@ rng(seed);
 targetList(targetIdx)=1;
 
 
-profits=cnexp2_runscenario(targetList,sigma,ownerId,runTime);
+profits=cnexp2_runscenario(targetList,sigma,-1,runTime);
 
 output.profits=profits;
 output.targetList=targetList;
